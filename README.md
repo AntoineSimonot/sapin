@@ -1,7 +1,7 @@
 # project
  
 1) name : Sapin - Flask
-2) Date : 20/12/2021
+2) date : 20/12/2021
 
 # author 
 
