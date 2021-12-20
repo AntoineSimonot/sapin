@@ -3,7 +3,7 @@
 1) name : Sapin - Flask
 2) date : 20/12/2021
 
-# author 
+# authors
 
 Antoine Simonot & Rinoshan
 
