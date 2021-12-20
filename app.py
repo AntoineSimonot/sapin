@@ -60,7 +60,6 @@ def createSapin(sizeOfSapin):
     if sizeOfSapin >= 30 :
         return "<p>n can't be higher or equal to 30</p>"
     else:
-        # print('sapin',blockCount)
         sapin = renderSapin(sapin, sizeOfSapin)
         return '<pre>' + sapin + '</pre>'
         
@@ -86,7 +85,6 @@ def renderSapin(sapin, pipe):
     pipeValues = ""
     for i, value in enumerate(fir):
         fir[i] = (' ' * (roundOfLastValueOfLeaves -len(value)//2  )) + value
-    # print(fir)
     for value in fir:
         if value == fir[-1]:
             allValues = allValues + value
